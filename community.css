@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Harlow Solid Italic;
+}
+
+a {
+  color:#444 ;
+}
+
+header {
+  padding: 10px;
+  background:#000 ;
+  color:#fff ;
+  text-align: center;
+}
+
+nav {
+  width: 200px;
+  font-family:verdana;
+  height: 800px;
+  float: left; /* don't modify */
+  background-color: #666;
+  margin-right: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+section {
+  width: 500px;
+  float: left; /* don't modify */
+  padding: 20px;
+  color: #888
+  background-color: #555
+  text-align: center;
+}
+
+footer {
+  clear: left; /* don't modify */
+  padding: 10px;
+  background: #333;
+  text-align: center;
+}
